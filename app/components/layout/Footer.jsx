@@ -1,9 +1,14 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Github, Linkedin, Facebook, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+import { getTheme } from "@/lib/theme";
+import Logo from "./Logo";
 
 const Footer = () => {
+  const theme = getTheme();
   return (
     <footer className="border-t border-(--color-border) bg-white">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
@@ -12,13 +17,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="inline-flex items-center">
-              <Image
-                src="/images/logo/miniwix_logo.png"
-                alt="Miniwix"
-                width={120}
-                height={32}
-                className="h-8 w-auto"
-              />
+              <Logo />
             </Link>
 
             <p className="mt-4 max-w-md text-sm leading-6 text-(--color-muted)">

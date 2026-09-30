@@ -7,6 +7,7 @@ import CustomSolution from "./components/home/CustomSolution";
 import Technologies from "./components/home/Technologies";
 import CTA from "./components/home/CTA";
 
+
 export default function Home() {
   return (
     <main>

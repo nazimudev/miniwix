@@ -23,7 +23,10 @@ export default function ThemeToggle() {
   }
 
   const toggleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
+    const newTheme = theme === "dark" ? "light" : "dark";
+
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
   };
 
   return (

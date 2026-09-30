@@ -15,6 +15,7 @@ const ProjectList = () => {
           src="/images/projects/project-1.png"
           alt="QuickLab Hospital Management"
           fill
+          sizes="(max-width: 768px) 100vw, 50vw"
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
       </div>
@@ -50,7 +51,7 @@ const ProjectList = () => {
           </span>
         </div>
         <Button variant="outline" size="sm" className="mt-3">
-            View Project
+          View Project
         </Button>
       </CardContent>
     </Card>
