@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/layout/Navbar";
 import Providers from "./providers";
 import Footer from "./components/layout/Footer";
+import { Toaster } from "@/components/ui/sonner";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Navbar />
           {children}
+          <Toaster />
           <Footer />
         </Providers>
       </body>

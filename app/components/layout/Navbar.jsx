@@ -9,11 +9,12 @@ import Logo from "./Logo";
 
 const navItems = [
   { name: "Home", href: "/" },
-  { name: "Service", href: "#service" },
-  { name: "Products", href: "#products" },
-  { name: "Team", href: "#team" },
-  { name: "Projects", href: "#projects" },
   { name: "About", href: "/about" },
+  { name: "Service", href: "/service" },
+  { name: "Products", href: "#products" },
+  { name: "Team", href: "/team" },
+  { name: "Projects", href: "#projects" },
+  { name: "Contact", href: "/contact"}
 ];
 
 const Navbar = () => {
