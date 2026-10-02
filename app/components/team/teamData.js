@@ -4,7 +4,7 @@
 
 export const TEAM_IMAGES = {
   nazim: "/images/team/nazim-uddin.jpg",
-  monira: "/images/team/monira-pervin.jpg",
+  monira: "/images/team/monira-pervin.jpeg",
 };
 
 export const MEMBERS = [

@@ -21,7 +21,7 @@ const AboutPage = () => {
       <WhoWeAre />
       <WhatWeBuild />
       <MissionVision />
-      <Founders />
+      {/* <Founders /> */}
       <TechnologyPhilosophy />
       <HowWeThink />
       <MiniwixStory />
